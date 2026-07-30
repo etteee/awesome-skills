@@ -1,0 +1,23 @@
+{
+  "mcp": {
+    "tool": "<MCP_TOOL_NAME>",
+    "arguments_template": {
+      "<MCP_ARGUMENT_NAME>": "{{service_id}}"
+    },
+    "response_mode": "<MCP_RESPONSE_MODE>",
+    "contract_selector": "<MCP_RESPONSE_CONTRACT_SELECTOR>"
+  },
+  "contract": {
+    "format": "<CONTRACT_FORMAT>",
+    "local_path_template": "<CONTRACT_LOCAL_PATH_TEMPLATE>"
+  },
+  "generation": {
+    "working_directory_template": "<CODEGEN_WORKING_DIRECTORY_TEMPLATE>",
+    "command_template": "<CODEGEN_COMMAND_TEMPLATE>",
+    "output_directory_template": "<GENERATED_CODE_DIRECTORY_TEMPLATE>"
+  },
+  "build": {
+    "working_directory_template": "<BUILD_WORKING_DIRECTORY_TEMPLATE>",
+    "command_template": "<BUILD_COMMAND_TEMPLATE>"
+  }
+}

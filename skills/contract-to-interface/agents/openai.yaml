@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contract to Interface"
+  short_description: "Turn interface contracts into compiled service code"
+  default_prompt: "Use $contract-to-interface to fetch an interface contract, generate service code, and verify compilation."
